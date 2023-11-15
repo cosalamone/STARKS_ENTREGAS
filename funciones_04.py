@@ -58,7 +58,6 @@ Retorno:
     return respuesta
 
 dato1 = 'Spider-Man a 2'
-# print(obtener_dato_formato(dato1))
 
 #1.3
 
@@ -418,7 +417,6 @@ prueba =   [{
     "inteligencia": ""
 }]
 
-# stark_normalizar_datos(prueba)
 
 # 4.1
 def stark_imprimir_indice_nombre(lista_heroes:list):
@@ -438,8 +436,6 @@ Retorno:
         nombre_reemplazado = nombre_sin_the.replace(' ', '-')
         indice_nombres += f'{nombre_reemplazado}-'
     print(indice_nombres) 
-
-# print(stark_imprimir_indice_nombre(lista_personajes))
 
 
 # 5.1
@@ -581,7 +577,6 @@ Retorno:
             menu_fichas = False
 
         
-# stark_navegar_fichas(lista_personajes)
 
 def imprimir_stark_generar_nombres_con_codigo(lista_heroe:list):
 
@@ -634,14 +629,3 @@ def stark_marvel_menu(lista_heroes:list):
 
 
 
-
-
-
-'''
-Brief:
-
-Parametros:
-    heroe: diccionario
-Retorno:
-
-'''
